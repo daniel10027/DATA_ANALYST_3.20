@@ -119,3 +119,27 @@ Cette commande supprime :
 
 
  # CHAPITRE II : CREONS NOTRE PREMIER DOCKERFILE
+
+
+Un dockerfile est un fichier dans lequel on retrouve l'ensemble de la recette decrivant l'image docker dont nous avons besoin pour notre projet
+
+Les étapes à suivre :
+- Créer les instructions dans notre Dockerfile
+- Créer un fichier .dockerignore 
+- Profiter de l'optimisation Docker 
+- Lancer le conteneur personalisé à parir de la commande :
+docker build -t orc-docker-build .
+  * -t permet de donner un nom à l'image docker.
+  * Le . à la fin est le repertoire ou se trouve notre dockerfile 
+docker run -d -p 2368:2368 ocr-docker-build (Pour lancer notre conteneur)
+
+
+### En resumé:
+Pour créer une image Docker, vous savez utiliser les instructions suivantes :
+- FROM qui vous permet de définir l'image source ;
+- RUN qui vous permet d’exécuter des commandes dans votre conteneur ;
+- ADD qui vous permet d'ajouter des fichiers dans votre conteneur ;
+- WORKDIR qui vous permet de définir votre répertoire de travail ;
+- EXPOSE qui permet de définir les ports d'écoute par défaut ;
+- VOLUME qui permet de définir les volumes utilisables ;
+- CMD qui permet de définir la commande par défaut lors de l’exécution de vos conteneurs Docker.
