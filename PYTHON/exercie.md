@@ -8,13 +8,15 @@
     •Améliorez l’affichage en imposant un chiffre après le point décimal.
 ````
 
-    
+````   
 2. 
     •Saisissez un flottant. S’il est positif ou nul, affichez sa racine, sinon affichez un message
     d’erreur.
     
     •L’ordre lexicographique est celui du dictionnaire.
     Saisir deux mots, comparez-les pour trouver le « plus petit » et affichez le résultat.
+````
+
 ```    
 3.
     On désire sécuriser une enceinte pressurisée.
@@ -22,7 +24,8 @@
     On demande de saisir la pression et le volume courant de l’enceinte et d’écrire un script
     qui simule le comportement suivant :
     – si le volume et la pression sont supérieurs aux seuils : arrêt immédiat ;
-    – si seule la pression est supérieure à la pression seuil : demander d’augmenter le volume de l’enceinte ;
+    – si seule la pression est supérieure à la pression seuil : demander d’augmenter 
+      le volume de l’enceinte ;
     – si seul le volume est supérieur au volume seuil : demander de diminuer le volume
     de l’enceinte ;
     – sinon déclarer que « tout va bien ».
@@ -42,13 +45,13 @@
     Écrire une saisie filtrée d’un entier dans l’intervalle 1 à 10, bornes comprises. Affichez
     la saisie.
 ```
-```
-  
+
+````  
 6.  Affichez chaque caractère d’une chaîne en utilisant une boucle for.
     Affichez chaque élément d’une liste en utilisant une boucle for.
- ````
 ````
- 
+
+```` 
 7.  Affichez les entiers de 0 à 15 non compris, de trois en trois, en utilisant une boucle for
     et l’instruction range().
 ````
@@ -59,7 +62,8 @@
 ````
 
 ````
-9. Utilisez l’instruction continue pour modifier une boucle for d’affichage de tous entiers de 1 à 10 compris,
+9. Utilisez l’instruction continue pour modifier une boucle for d’affichage de tous entiers
+    de 1 à 10 compris,
    sauf lorsque la variable de boucle vaut 5. 
 ````
 
