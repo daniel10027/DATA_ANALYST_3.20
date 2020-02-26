@@ -1,3 +1,4 @@
+````
 # Les scripts du cours
 
 1. 
@@ -111,6 +112,7 @@
 3.  Utilisez une liste en compréhension pour obtenir la liste ['ad', 'ae', 'bd', 'be',
     'cd', 'ce'] à partir des chaînes "abc" et "de".
     
+
 4. Définir deux ensembles (sets) : X = {a,b,c,d} et Y = {s,b,d}, puis affichez les résultats
   suivants :
     – les ensembles initiaux ;
@@ -122,3 +124,4 @@
     
 5.  Écrire une fonction compterMots ayant un dictionnaire contenat plusieurs autre dictionnaire et qui
     renvoie la clé:la valeur de chaque dictionnaire .
+```
